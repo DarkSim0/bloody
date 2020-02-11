@@ -6,14 +6,13 @@
     <title>NKTI Blood Bank</title>
     <meta name="description" content="A high-quality &amp; free Bootstrap admin dashboard template pack that comes with lots of templates and components.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="{{asset('asset/css/all.css')}}" >
     <link href="{{asset('asset/css/font_awesome.css')}}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('asset/css/bootstrap.css')}}" >
     <link rel="stylesheet" href="{{asset('asset/css/shards-dashboards.1.1.0.min.css')}}">
     <link rel="stylesheet" href="{{asset('asset/css/extras.1.1.0.min.css')}}">
     @yield('styles')
-    <script async defer src="{{asset('asset/js/buttons.js')}}"></script>
+    <script  src="{{asset('asset/js/buttons.js')}}"></script>
   </head>
   <body class="h-100">
     <div class="color-switcher animated">
@@ -33,12 +32,6 @@
         </li>
         <li class="accent-warning" data-color="warning">
           <i class="material-icons">check</i>
-          deprisol d consignment 30764-new code para magawan ng iar 
-          sir benny of warehouse 1120 
-     
-          2069 mam me ann
-
-          po 20-0076 
         </li>
         <li class="accent-danger" data-color="danger">
           <i class="material-icons">check</i>
@@ -49,20 +42,7 @@
           <i class="material-icons">cloud</i> Download</a>
         <a class="mb-2 btn btn-sm btn-white w-100 d-table mx-auto extra-action" href="https://designrevision.com/docs/shards-dashboard-lite">
           <i class="material-icons">book</i> Documentation</a>
-      </div>
-      <div class="social-wrapper">
-        <div class="social-actions">
-          <h5 class="my-2">Help us Grow</h5>
-          <div class="inner-wrapper">
-            <a class="github-button" href="https://github.com/DesignRevision/shards-dashboard" data-icon="octicon-star" data-show-count="true" aria-label="Star DesignRevision/shards-dashboard on GitHub">Star</a>
-            <!-- <iframe style="width: 91px; height: 21px;"src="https://yvoschaap.com/producthunt/counter.html#href=https%3A%2F%2Fwww.producthunt.com%2Fr%2Fp%2F112998&layout=wide" width="56" height="65" scrolling="no" frameborder="0" allowtransparency="true"></iframe> -->
-          </div>
-        </div>
-        <div id="social-share" data-url="htt ps://designrevision.com/downloads/shards-dashboard-lite/" data-text="🔥 Check out Shards Dashboard Lite, a free and beautiful Bootstrap 4 admin dashboard template!" data-title="share"></div>
-        <div class="loading-overlay">
-          <div class="spinner"></div>
-        </div>
-      </div>
+      </div>    
       <div class="close">
         <i class="material-icons">close</i>
       </div>
@@ -437,9 +417,9 @@
       </div>
     </div>
     <div class="promo-popup animated">
-      <a href="http://bit.ly/shards-dashboard-pro" class="pp-cta extra-action">
-        <img src="https://dgc2qnsehk7ta.cloudfront.net/uploads/sd-blog-promo-2.jpg"> </a>
-      <div class="pp-intro-bar"> Need More Templates?
+      <a href="https://www.nkti.gov.ph" class="pp-cta extra-action">
+      <img src="{{asset('asset/img/cp3.PNG')}}"> </a>
+      <div class="pp-intro-bar"> Check our Homepage
         <span class="close">
           <i class="material-icons">close</i>
         </span>
@@ -448,12 +428,12 @@
         </span>
       </div>
       <div class="pp-inner-content">
-        <h2>Shards Dashboard Pro</h2>
-        <p>A premium & modern Bootstrap 4 admin dashboard template pack.</p>
-        <a class="pp-cta extra-action" href="http://bit.ly/shards-dashboard-pro">Download</a>
+        <h2>National Kidney Transplant Institution</h2>
+        <p>Phone: (63) (2) 8981-0300, 8981-0400</p>
+        <a class="pp-cta extra-action" href="https://www.nkti.gov.ph">GO</a>
       </div>
     </div>
-    <script src="{{asset('asset/js/jquery-3.3.1.min.js')}}" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="{{asset('asset/js/jquery-3.3.1.min.js')}}"></script>
     <script src="{{asset('asset/js/popper.js')}}" ></script>
     <script src="{{asset('asset/js/bootsrap.js')}}"></script>
     <script src="{{asset('asset/js/chart.js')}}"></script>
