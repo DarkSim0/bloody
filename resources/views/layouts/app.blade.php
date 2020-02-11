@@ -6,10 +6,11 @@
     <title>NKTI Blood Bank</title>
     <meta name="description" content="A high-quality &amp; free Bootstrap admin dashboard template pack that comes with lots of templates and components.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{asset('asset/css/all.css')}}" >
     <link href="{{asset('asset/css/font_awesome.css')}}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('asset/css/bootstrap.css')}}" >
-    <link rel="stylesheet" id="main-stylesheet" data-version="1.1.0" href="{{asset('asset/css/shards-dashboards.1.1.0.min.css')}}">
+    <link rel="stylesheet" href="{{asset('asset/css/shards-dashboards.1.1.0.min.css')}}">
     <link rel="stylesheet" href="{{asset('asset/css/extras.1.1.0.min.css')}}">
     @yield('styles')
     <script async defer src="{{asset('asset/js/buttons.js')}}"></script>
@@ -32,6 +33,12 @@
         </li>
         <li class="accent-warning" data-color="warning">
           <i class="material-icons">check</i>
+          deprisol d consignment 30764-new code para magawan ng iar 
+          sir benny of warehouse 1120 
+     
+          2069 mam me ann
+
+          po 20-0076 
         </li>
         <li class="accent-danger" data-color="danger">
           <i class="material-icons">check</i>
@@ -51,7 +58,7 @@
             <!-- <iframe style="width: 91px; height: 21px;"src="https://yvoschaap.com/producthunt/counter.html#href=https%3A%2F%2Fwww.producthunt.com%2Fr%2Fp%2F112998&layout=wide" width="56" height="65" scrolling="no" frameborder="0" allowtransparency="true"></iframe> -->
           </div>
         </div>
-        <div id="social-share" data-url="https://designrevision.com/downloads/shards-dashboard-lite/" data-text="🔥 Check out Shards Dashboard Lite, a free and beautiful Bootstrap 4 admin dashboard template!" data-title="share"></div>
+        <div id="social-share" data-url="htt ps://designrevision.com/downloads/shards-dashboard-lite/" data-text="🔥 Check out Shards Dashboard Lite, a free and beautiful Bootstrap 4 admin dashboard template!" data-title="share"></div>
         <div class="loading-overlay">
           <div class="spinner"></div>
         </div>
@@ -446,9 +453,10 @@
         <a class="pp-cta extra-action" href="http://bit.ly/shards-dashboard-pro">Download</a>
       </div>
     </div>
-    <script src="{{asset('asset/js/jquery.js')}}" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="{{asset('asset/js/jquery-3.3.1.min.js')}}" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="{{asset('asset/js/popper.js')}}" ></script>
     <script src="{{asset('asset/js/bootsrap.js')}}"></script>
+    <script src="{{asset('asset/js/chart.js')}}"></script>
     <script src="{{asset('asset/js/shards.min.js')}}"></script>
     <script src="{{asset('asset/js/jquery-sharre.js')}}"></script>
     <script src="{{asset('asset/js/extras.1.1.0.min.js')}}"></script>
