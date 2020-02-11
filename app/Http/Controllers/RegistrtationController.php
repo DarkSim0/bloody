@@ -12,4 +12,5 @@ class RegistrtationController extends Controller
     public function create(){
         return view('register.create');
     }
+    
 }
