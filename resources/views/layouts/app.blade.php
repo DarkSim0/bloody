@@ -6,7 +6,7 @@
     <title>NKTI Blood Bank</title>
     <meta name="description" content="A high-quality &amp; free Bootstrap admin dashboard template pack that comes with lots of templates and components.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="{{asset('asset/css/font_awesome.css')}}" rel="stylesheet">
+    <link href="{{asset('fontawesome/css/all.css')}}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('asset/css/bootstrap.css')}}" >
     <link rel="stylesheet" href="{{asset('asset/css/shards-dashboards.1.1.0.min.css')}}">
