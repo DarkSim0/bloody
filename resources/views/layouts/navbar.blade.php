@@ -6,7 +6,7 @@
             <i class="fas fa-search"></i>
           </div>
         </div>
-        <input class="navbar-search form-control" type="text" placeholder="Search for something..." aria-label="Search"> </div>
+      </div>
     </form>
     <ul class="navbar-nav border-left flex-row ">
       <li class="nav-item border-right dropdown notifications">
@@ -46,7 +46,7 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle text-nowrap px-3" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-          <img class="user-avatar rounded-circle mr-2" src="images/avatars/0.jpg" alt="User Avatar">
+          {{-- <img class="user-avatar rounded-circle mr-2" src="images/avatars/0.jpg" alt="User Avatar"> --}}
           <span class="d-none d-md-inline-block">Sierra Brooks</span>
         </a>
         <div class="dropdown-menu dropdown-menu-small">

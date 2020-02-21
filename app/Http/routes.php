@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/patient_register', 'PatientController@index');
 
 
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');

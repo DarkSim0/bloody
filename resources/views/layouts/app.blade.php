@@ -15,7 +15,7 @@
     <script  src="{{asset('asset/js/buttons.js')}}"></script>
   </head>
   <body class="h-100">
-    <div class="color-switcher animated">
+    {{-- <div class="color-switcher animated">
       <h5>Accent Color</h5>
       <ul class="accent-colors">
         <li class="accent-primary active" data-color="primary">
@@ -46,10 +46,10 @@
       <div class="close">
         <i class="material-icons">close</i>
       </div>
-    </div>
-    <div class="color-switcher-toggle animated pulse infinite">
+    </div> --}}
+    {{-- <div class="color-switcher-toggle animated pulse infinite">
       <i class="material-icons">settings</i>
-    </div>
+    </div> --}}
     <div class="container-fluid">
       <div class="row">
         <!-- Main Sidebar -->
