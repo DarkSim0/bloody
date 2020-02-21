@@ -19,6 +19,8 @@ class CreateRegisterTrailTable extends Migration
             $table->string('first_name');
             $table->string('last_name');
             $table->string('middle_name');
+            $table->string('dateofbirth');
+            $table->string('gender');
             $table->timestamps('date_created')->default(DB::raw('CURRENT_TIMESTAMP'));
         });
     }
