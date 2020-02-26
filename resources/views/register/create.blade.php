@@ -80,14 +80,7 @@
                                     <input type="text" class="form-control" id="feEmailAddress" placeholder="123456" value="">
                                   </div>
                                   <div class="form-group col-md-6">
-                                    <label for="fePassword">Marital Status</label>
-                                    <select name="" class="form-control">
-                                      <option selected>Choose...</option>
-                                      <option value="">Single</option>
-                                      <option value="">Married</option>
-                                      <option value="">Widowed</option>
-                                      <option value="">Divorced</option>
-                                    </select>
+                              
                                   </div>
                                 </div>
                                 <div class="form-group">
@@ -98,15 +91,14 @@
                                     <label for="feInputCity">City</label>
                                     <input type="text" class="form-control" id="feInputCity"> </div>
                                   <div class="form-group col-md-6">
-                                    <label for="feInputState">Mobile Number</label>
-                                      <input type="text" class="form-control" name="" id="">
+                                   <label for="feDescription">Occupation</label>
+                                    <input type="text" class="form-control" name="" id="">
                                   </div>
                                   
                                 </div>
                                 <div class="form-row">
                                   <div class="form-group col-md-12">
-                                    <label for="feDescription">Occupation</label>
-                                    <input type="text" class="form-control" name="" id="">
+                                    
                                   </div>
                                 </div>
                                 <button type="submit" class="btn btn-accent">Update Account</button>
@@ -118,6 +110,7 @@
                     </div>
                   </div>
                 </div>
+              </div>
         </form>
     
 @endsection
